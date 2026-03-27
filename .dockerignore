@@ -1,0 +1,19 @@
+# Node.js
+node_modules
+npm-debug.log*
+
+# VitePress build output and cache
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Torrents
+torrents
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
