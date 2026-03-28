@@ -13,12 +13,12 @@ A complete guide to 3DS (and 2DS) custom firmware, from stock to boot9strap.
 
 Build the image:
 ```bash
-docker build -t dsi-cfw-guide .
+docker build -t Guide_3DS_Docker .
 ```
 
 Run the container:
 ```bash
-docker run -p 8080:80 dsi-cfw-guide
+docker run -p 8080:80 Guide_3DS_Docker
 ```
 
 The site will be available at http://localhost:8080.
@@ -39,8 +39,8 @@ docker compose down
 The image is automatically published to GHCR on every push to `master` and on tagged releases.
 
 ```bash
-docker pull ghcr.io/cfw-guide/dsi.cfw.guide:latest
-docker run -p 8080:80 ghcr.io/cfw-guide/dsi.cfw.guide:latest
+docker pull ghcr.io/wildfirebill-nintendo-3ds/guide_3ds_docker:latest
+docker run -p 8080:80 ghcr.io/wildfirebill-nintendo-3ds/guide_3ds_docker:latest
 ```
 
 Available tags:
