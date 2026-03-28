@@ -4,6 +4,19 @@ A complete guide to 3DS (and 2DS) custom firmware, from stock to boot9strap.
 
 https://3ds.hacks.guide/
 
+## Running the site locally with Docker
+
+http://localhost:8080
+
+services:
+  guide-3ds:
+    image: ghcr.io/wildfirebill-nintendo-3ds/guide_3ds_docker:sha-1f5f1ff
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+
+
 ## Running the site locally
 
 This requires the following installed on your system:
