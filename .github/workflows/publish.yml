@@ -16,7 +16,7 @@ jobs:
           submodules: recursive
 
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v4
 
       - name: Setup Node
         uses: actions/setup-node@v6
