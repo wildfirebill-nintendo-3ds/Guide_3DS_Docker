@@ -8,14 +8,7 @@ https://3ds.hacks.guide/
 
 http://localhost:8080
 
-services:
-  guide-3ds:
-    image: ghcr.io/wildfirebill-nintendo-3ds/guide_3ds_docker:sha-1f5f1ff
-    ports:
-      - "8080:80"
-    restart: unless-stopped
-
-
+Use docker-compose.yml
 
 ## Running the site locally
 
