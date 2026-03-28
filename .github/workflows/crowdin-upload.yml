@@ -39,4 +39,3 @@ jobs:
           crowdin_branch_name: master
         env:
           CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
