@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log*
+docs/.vitepress/cache
+docs/.vitepress/dist
+.git
+.github
+.DS_Store
