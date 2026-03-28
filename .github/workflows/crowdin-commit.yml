@@ -56,4 +56,3 @@ jobs:
         with:
           github_token: ${{ secrets.RUMIHO_TOKEN }}
           branch: master
-runs-on: self-hosted
